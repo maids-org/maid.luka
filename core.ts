@@ -36,7 +36,7 @@ const webhook = async () => {
           return new Response("Couldn't succeed with installing webhook");
         }
       default:
-        return Response.redirect("https://maid.uz", 302);
+        return Response.redirect("https://slaves.instatus.com/", 302);
     }
   });
 };
