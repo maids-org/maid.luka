@@ -21,7 +21,7 @@ const webhook = async () => {
         case "/bot":
           return await handle(req);
         case "/cron":
-          return new Response("WIP");
+          return new Response("CRON Timetable Schedule Message");
         default:
           return new Response("What you're trying to post?");
       }
