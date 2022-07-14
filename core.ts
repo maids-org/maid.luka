@@ -13,7 +13,7 @@ const initializer = async () => {
 
 const webhook = async () => {
   await console.log(blue("[INFO]"), `bot is starting on ${env["HOST"]}`);
-  await serve(async (req) => {
+  await serve(async (req: Request) => {
     const url = new URL(req.url);
 
     if (req.method == "POST") {
