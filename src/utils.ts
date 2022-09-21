@@ -8,6 +8,4 @@ const inits = () => {
   }
 };
 
-const dots = inits();
-
-export default dots;
+export const env = inits();
